@@ -56,5 +56,13 @@ export const config: Record<string, IChainConfig> = {
 			args: ['test:e2e-tests', '--chain', 'statemine'],
 		},
 		SasStartOpts: defaultSasStartOpts,
-	}
+	},
+	karura: {
+		wsUrl: 'wss://karura.api.onfinality.io/public-ws',
+		JestProcOpts: {
+			...defaultJestOpts,
+			args: ['test:e2e-tests', '--chain', 'karura'],
+		},
+		SasStartOpts: defaultSasStartOpts,
+	},
 };
