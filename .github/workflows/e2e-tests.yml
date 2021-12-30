@@ -2,7 +2,7 @@ name: daily e2e tests
 
 on:
   schedule:
-    - cron: '0/5 * * * *' # Test to run every 5 mins
+    - cron: '00/05 0 * * *' # Test to run every 5 mins
 
 jobs:
   e2e-test:
