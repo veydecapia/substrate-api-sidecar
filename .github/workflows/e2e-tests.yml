@@ -2,8 +2,8 @@ name: daily e2e tests
 
 on:
   schedule:
-    - cron: '00 10 * * *' # Test to run at 10AM UTC
-  
+    - cron: '0/5 * * * * # Test to run every 5 mins
+
 jobs:
   e2e-test:
     runs-on: ubuntu-latest
