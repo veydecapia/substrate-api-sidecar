@@ -3,7 +3,9 @@ name: daily e2e tests
 on:
   push:
     branches:
-      - harvey-add-karura-test
+      - master
+  schedule:
+    - cron: '*/10 * * * *' # Test to run every 10 mins
   
 jobs:
   e2e-test:
@@ -18,4 +20,4 @@ jobs:
       run: |
         yarn install
         echo "Daily Test is now running..."
-        yarn test:init-e2e-tests  #Should test on all available networks
+        yarn test:init-e2e-tests  #Should test on all available chain networks
