@@ -1,11 +1,8 @@
 name: daily e2e tests
 
 on:
-  push:
-    branches:
-      - master
   schedule:
-    - cron: '*/10 * * * *' # Test to run every 10 mins
+    - cron: '00 10 * * *' # Test to run at 10AM UTC
   
 jobs:
   e2e-test:
