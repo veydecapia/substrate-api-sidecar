@@ -17,6 +17,11 @@ To run the tests against a single chain, you may use the following below. For mo
 
 
 ## Limitations on Added Karura e2e Test
+To run karura test
+
+`yarn test:init-e2e-tests:karura`
+
+There are some unsupported endpoints for Karura as of this writing so some tests are not included. Please see below.
 
 ### Vesting Info Test Limitation
 Vesting info endpoint is not supported for Karura at the moment. An error response will be returned when trying to do so.
@@ -49,10 +54,6 @@ Parachain endpoint is also not supported yet for Karura.
 ## Suggestions & Feedback
 
 Below are my suggestion points and feedback while creating end to end tests for Karura. I basically used the same boilerplate code being used by other network.
-
-To run karura test
-
-`yarn test:init-e2e-tests:karura`
 
 
 ### Suggestion/Recommendation
