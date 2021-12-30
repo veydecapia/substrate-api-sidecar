@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - harvey-add-karura-test
-	#schedule:
-	  #- cron: '*/5 * * * *' #Test every 5 mins or on push
   
 jobs:
   e2e-test:
