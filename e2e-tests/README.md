@@ -18,8 +18,8 @@ To run the tests against a single chain, you may use the following below. For mo
 
 ## Limitations on Added Karura e2e Test
 
-### Vesting Info Test
-Vesting info endpoint is not supported for Karura network at the moment. An error response will be returned when trying to do so.
+### Vesting Info Test Limitation
+Vesting info endpoint is not supported for Karura at the moment. An error response will be returned when trying to do so.
 
 Tried to add `'AccountsVestingInfo'` in the Karura chains controller [config](https://github.com/paritytech/substrate-api-sidecar/blob/master/src/chains-config/karuraControllers.ts#L11) as a workaround. 
 
@@ -33,7 +33,17 @@ The below error will be the response.
   "level": "error"
 }
 ```
+### Parachain Test Limitation
+Parachain endpoint is also not supported yet for Karura.
 
+```
+{
+  "code": 500,
+  "message": "Parachains are not yet supported on this network.",
+  "stack": "Error: Parachains are not yet supported on this network.\n    at ParasController.checkParasModule (/home/harvey/.npm/_npx/8bf7ace223ab1c10/node_modules/@substrate/api-sidecar/build/src/controllers/paras/ParasController.js:46:23)\n    at ParasController.getAuctionsCurrent (/home/harvey/.npm/_npx/8bf7ace223ab1c10/node_modules/@substrate/api-sidecar/build/src/controllers/paras/ParasController.js:40:18)\n    at /home/harvey/.npm/_npx/8bf7ace223ab1c10/node_modules/@substrate/api-sidecar/build/src/controllers/AbstractController.js:168:15\n    at Layer.handle [as handle_request] (/home/harvey/.npm/_npx/8bf7ace223ab1c10/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/harvey/.npm/_npx/8bf7ace223ab1c10/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/home/harvey/.npm/_npx/8bf7ace223ab1c10/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/harvey/.npm/_npx/8bf7ace223ab1c10/node_modules/express/lib/router/layer.js:95:5)\n    at /home/harvey/.npm/_npx/8bf7ace223ab1c10/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/harvey/.npm/_npx/8bf7ace223ab1c10/node_modules/express/lib/router/index.js:341:12)\n    at next (/home/harvey/.npm/_npx/8bf7ace223ab1c10/node_modules/express/lib/router/index.js:275:10)",
+  "level": "error"
+}
+```
 
 
 ## Suggestions & Feedback
