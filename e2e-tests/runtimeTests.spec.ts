@@ -21,7 +21,7 @@ describe('Runtime Tests for blocks', () => {
 	/**
 	 * Allows a timeout of 30 seconds for each response.
 	 */
-	jest.setTimeout(30000);
+	jest.setTimeout(300000);
 
 	/**
 	 * Test runtimes for `/blocks`
@@ -41,7 +41,7 @@ describe('Runtime Tests for accounts', () => {
 	/**
 	 * Allows a timeout of 30 seconds for each response.
 	 */
-	jest.setTimeout(30000);
+	jest.setTimeout(300000);
 
 	/**
 	 * Test runtiems for `/accounts/*`
@@ -61,7 +61,7 @@ describe('Runtime Tests for `/runtime/*`', () => {
 	/**
 	 * Allows a timeout of 30 seconds for each response.
 	 */
-	jest.setTimeout(30000);
+	jest.setTimeout(300000);
 
 	test.each(runtime)(
 		'Given path %p, it should return the correct JSON response',
@@ -78,7 +78,7 @@ describe('Runtime Tests for `/experimental/paras/*`', () => {
 	/**
 	 * Allows a timeout of 30 seconds for each response.
 	 */
-	jest.setTimeout(30000);
+	jest.setTimeout(300000);
 
 	if (paras.length) {
 		test.each(paras)(

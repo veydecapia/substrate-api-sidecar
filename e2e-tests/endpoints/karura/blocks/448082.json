@@ -1,0 +1,215 @@
+{
+  "number": "448082",
+  "hash": "0x91de89508ff3c9a4befb7126ea979ada00959c1094bc233329ef0a4a6b788fc6",
+  "parentHash": "0x38280e95624488b1272102e3dfb6c435b291bf4d7902bc5f185dc9969fb44f1b",
+  "stateRoot": "0x866fcc1d94ca9f5df376eeb1193542a2188d75fc4f4794d3bf8eb27cdb70a3d9",
+  "extrinsicsRoot": "0x438f604c95c8b9cd4c6849fdfeb42b97fe70e8318d66ec88e9df4c35ef2b02b9",
+  "authorId": "op7G2ofug2Q2n1Bq3uUGzkNdSp68S93beMQkjjyDxnPREnk",
+  "logs": [
+    {
+      "type": "PreRuntime",
+      "index": "6",
+      "value": [
+        "0x61757261",
+        "0xd73a190800000000"
+      ]
+    },
+    {
+      "type": "Seal",
+      "index": "5",
+      "value": [
+        "0x61757261",
+        "0xbe4675b0c9fdc731d18b465d85d1a9bb74badb222a5d5887687894951902ec1aae09fbc1a4d1fff9a49ca9eb70a3e257f7ab54db08ba5cafe88829fa040bf88b"
+      ]
+    }
+  ],
+  "onInitialize": {
+    "events": [
+      {
+        "method": {
+          "pallet": "currencies",
+          "method": "Deposited"
+        },
+        "data": [
+          {
+            "token": "KUSD"
+          },
+          "qmmNufxeWaAUp4SVa1Vi1owrzP1xhR6XKdorEcck17RF498",
+          "89010030766"
+        ]
+      }
+    ]
+  },
+  "extrinsics": [
+    {
+      "method": {
+        "pallet": "timestamp",
+        "method": "set"
+      },
+      "signature": null,
+      "nonce": null,
+      "args": {
+        "now": "1630454298620"
+      },
+      "tip": null,
+      "hash": "0x212cbcce2fce9dc90344a37c1142576c0ee4b965384cbedbc8c62ff5fe01a432",
+      "info": {},
+      "era": {
+        "immortalEra": "0x00"
+      },
+      "events": [
+        {
+          "method": {
+            "pallet": "system",
+            "method": "ExtrinsicSuccess"
+          },
+          "data": [
+            {
+              "weight": "185277000",
+              "class": "Mandatory",
+              "paysFee": "Yes"
+            }
+          ]
+        }
+      ],
+      "success": true,
+      "paysFee": false
+    },
+    {
+      "method": {
+        "pallet": "parachainSystem",
+        "method": "setValidationData"
+      },
+      "signature": null,
+      "nonce": null,
+      "args": {
+        "data": {
+          "validationData": {
+            "parentHead": "0x75bf7994c729d4f5953667b386acd5e34c8fb1de6d3288fd21d9ae26a7d8649646591b007f2cdcfd48671bdb6086a2a5e271936b28127c4ccddae0a672047149dc050339430e066b804bc51172cf757f6891e520ac9947055b3583e09c4c01d7e35c5efe08066175726120d63a19080000000005617572610101dc03fd20695c85d52a51ffd549f130fd5ab4a3bd2dc57a0b2e41f26a0ce5526a0cd85d26a12e73d92057c115eda6a46c0c315f08d124b14881a9fd881542bf82",
+            "relayParentNumber": "9027769",
+            "relayParentStorageRoot": "0x8022bb16023f7445051b95dd7eb74bdb07343fcd712c6e22c091dc7eab881236",
+            "maxPovSize": "5242880"
+          },
+          "relayChainState": {
+            "trieNodes": [
+              "0x9e207f03cfdce586301014700e2c25931040505f0e7b9012096b41c4eb3aaf947f6ea4290800004c5f0ec2d17a76153ff51817f12d9cfc3c7f0400",
+              "0x800110807af5801be513812557286a61c426976d6663e8b69f4851bfd3a243140a38c5728076aff22d5896b107627dd4519934fb2722494affa3188bdfa378e8229648e725",
+              "0x9ef78c98723ddc9073523ef3beefda0c100480f58ced82b7736126cda4db823e55b27ecd99ba78a1573841fc482b4836efd5fa807120f3e0f9282b20751f820e2854179c1d099a425e71bc702d6911efa677cf3b",
+              "0x9ede3d8a54d27e44a9d5ce189618f22d1008505f0e7b9012096b41c4eb3aaf947f6ea42908000080b641c963fe2abd3b3454e34e24412d42cb11226bd9737be0f81d79a45b4d790a",
+              "0x80400880b2ff60e10d1d81dce7d7d5040b53c5f42d3c0e1d79b0d324df2225dc65ef3a7780500c3e1fadcbf6a663b0c8c37a91eb3b24271e37efb19904106badc43a7010b8",
+              "0x80ffff809a0578c02a566819fddd6c1a12414930ee0507e14d8941291dd734c88fb574a880d1e55f55dab6f4e5439264aa65c1bb496f02d6f8b72f23846362e4496c50df238089fe5b6aa17f2d512c1253142760e13b950a810211879d9accd803eb9191d02380ba59d7472aff3bfbd3451b9cffd648614a3ae17f68be9a3a22becfb328d23bed80d5eec722ae9cec606ebd545352689b3faf972e1764bc1f1e8d924c105db3e4888086001e6ff22f445213e4b23040003922cbae3acf0f5b43fe6b3a55b42d34dbaa80a386781dfb4d0872bde84ccabb94288c9750fb51a600c1e79d0ce4ddcb8d32708065b51ed7c05390864bff940ee942115426832617121e61628724616a75907505802c04a7b2387bfb100d91daa27403ca85728062cc434ad2afcf14e43b17c0d4e980c4a8731758a2f456819eed48ae32c29a33ac6adb117d62b38eff5ee2788993e0809d37f190b1cbc64f10c9e568631eb95b093bd2032de956e33a1b2919ad8965028024532ac9a16f5c22b246221793caa34a0a1d116dc8c0bbc3a0c9694664b13413809e5eeb2bdb578c0207a4d0b63c49deebd4ff240c4b50c25875fe0d8d1ca7e1cf80a4a171cb734404f48956e607de254370f2e20ab1b9af3a041a0390f2f97a24de80e8b4fbd45c0a5b3ca396551155d96fd2caffc1f354b5ecf57c0f19fe36c5b06080a2fae21c39bfc207442d8736b5b9240befa1f95ff81a9335a9a4b881b187bf04",
+              "0x5f04b49d95320d9021994c850f25b8e385f9020000a000005000000a00000000c8000000c800000a0000000a00000040380000580200000000500000c8000000e87648170000000a0000000000000002000000c09e5d9a2f3d00000000000000000000c09e5d9a2f3d00000000000000000000e8030000009001000a00000000000000009001008070000000000000000000000a0000000a0000000a00000001000000010500000001c8000000060000005802000002000000580200000200000059000000000000001e00000028000000",
+              "0x80650080e20827fd8cfc189a9755442ac59df89458249e8420c311fad398d4fda10448a18090ccb3d5a9156668d2b5f31e8c816205c8e05d8dae15d293028a1c9b97c0761c801a2ff24096295cfccf1adda80b8dfffe380b9f3b54d7a3cdb67864a4655e6296801d8c6bd56b9fbc94a728b0a2426bcb15979b1dff2dd66515d152a91124ea933f",
+              "0x80081480d38efe8f1ed9b2a27bceb4fdfb6dbac9c37ab507c666a792b70375a35fcc62e7803bb0d75b7e307777a07a2c3dd425627a35d806e3e5a8d61163c166c67d0d2fe98021790fe1492ec1760c013d017773c04a08126067da915f43d0165edfc77b16ef",
+              "0x9d0da05ca59913bc38a8630590f2627c114080385ccec52bafb4ca871aa7f035d31beb26b09fb35355439981cddb61e698cb30505f0e7b9012096b41c4eb3aaf947f6ea429080000804eaeda0348ba1261e636847c1aa37153b949a7311d7313bcce6eb98cdbd3ce4a",
+              "0x9eb6f36e027abb2091cfb5110ab5087ff96e685f06155b3cd9a8c9e5e9a23fd5dc13a5ed20af75321000000000685f08316cbf8fa0da822a20ac1c55bf1be320363c000000000000505f0e7b9012096b41c4eb3aaf947f6ea429080000809d2ac46a0320c612d810fe08bd86a51f5b830acb2721bffed4077f7aba9b4145809d3fd79275a68cdcae96054d764f718cd8cdcfcaffba58588647a7356d9a497880f321bfa8b18b07cc8d851688315e51c9ebe51e4c11c2d5b5a46521c47098e56d800d49fef039517cc312c00412803ca1df50ac6d90c50541f649a9c85b83c0fdd8800a4248e14bb341f71a3f3f78f4a591a11da815a86afd53b04d9144916ca9f5668027a64a1ab60770af7a48ea1736134b054279a9520d1bfad5865795c2d6c9dc4280a7b528f87dd8dc06701cd4dd9fb05f354ca5e43beefcf67810b90dd1cd31b89d685f090e2fbf2d792cb324bffa9427fe1f0e2035bd89008abf8900",
+              "0x801317806083fccc5ad9489e8fffd469466a4206a743d8dbbc8fb301059daa1d198c862880209c661e5f8d0d1d382bc56ad7160bcdd0ebfc03d198b194b7d25515a8ee084f80f8b2ed33837a8b7ecd8b4ba576765282211541a0c026a983b9210876e9240ded80d2f91a09576a1b03c7d02a7ea0a1eb7cb4b92f6575ae8c8bde4ff3ba1c5341cd80bbd2ae78474de85520fbe21b184db4d38daca2dd9efb6583b304c06cb9e2eac48059b217f348b28054f415e153aaea2dad7c0e8288c17bcc33d55fc1c82ba364248055411b74ca5cc9347a4607cbffbc237dc3851a901da0a0872a5ed431976a3235",
+              "0x80006080270e93cefc6a6dbf992c5a268f912b5ed33ca791bd0ce0739df5e1a0e91b0ab64c5e7b9012096b41c4eb3aaf947f6ea429080000",
+              "0x5703f5a4efb16ffa83d007000080140064f96f6cf06b99bfae36fa966ec48fe155c6d1e5a535339b8cf57b51784d",
+              "0x9e7fefc408aac59dbfe80a72ac8e3ce5700880de9f3a17259151dd5412bbab860179d392f92f932dc2bbdd588b02da9aa4b0848046cb023ff4121ada71ee643fb28992c32098e540954c7a6edcaddabddfdd4dd980d5251f3be188ec12abb22d869f596ea825dc319b0c6abf0ce1b7faa66171165780ce0514618fd8a8554b2783e04bd0dcce6bde0bab3814d104f45652256b6ca104"
+            ]
+          },
+          "downwardMessages": [],
+          "horizontalMessages": {}
+        }
+      },
+      "tip": null,
+      "hash": "0x44c887a0c6530fd9a4fe984d4a3be2d10aa0c2dadca88cea3873bf6f8ba1a8b8",
+      "info": {},
+      "era": {
+        "immortalEra": "0x00"
+      },
+      "events": [
+        {
+          "method": {
+            "pallet": "system",
+            "method": "ExtrinsicSuccess"
+          },
+          "data": [
+            {
+              "weight": "0",
+              "class": "Mandatory",
+              "paysFee": "Yes"
+            }
+          ]
+        }
+      ],
+      "success": true,
+      "paysFee": false
+    },
+    {
+      "method": {
+        "pallet": "acalaOracle",
+        "method": "feedValues"
+      },
+      "signature": {
+        "signature": "0x2abbabfdd1eb85b6183da4f189fb3250aa58d73861f728f756d0c1eb7a6a9a6087c861d459951fc408d60bd1f7728b35950b75c4e9bd666159edc23033599c83",
+        "signer": {
+          "id": "tQcWARYTJHKTPTiN7LMQPmohrRc3467kApPsgvt5wU2EJat"
+        }
+      },
+      "nonce": "4139",
+      "args": {
+        "values": [
+          [
+            {
+              "token": "KSM"
+            },
+            "394502500000000000000"
+          ]
+        ]
+      },
+      "tip": "0",
+      "hash": "0x99b84a7381f6cb76e67a02fe813e00ba4111ec7c6508842b403244819511cbc0",
+      "info": {
+        "weight": "395400000",
+        "class": "Normal",
+        "partialFee": "2381897614"
+      },
+      "era": {
+        "mortalEra": [
+          "32",
+          "13"
+        ]
+      },
+      "events": [
+        {
+          "method": {
+            "pallet": "acalaOracle",
+            "method": "NewFeedData"
+          },
+          "data": [
+            "tQcWARYTJHKTPTiN7LMQPmohrRc3467kApPsgvt5wU2EJat",
+            [
+              [
+                {
+                  "token": "KSM"
+                },
+                "394502500000000000000"
+              ]
+            ]
+          ]
+        },
+        {
+          "method": {
+            "pallet": "system",
+            "method": "ExtrinsicSuccess"
+          },
+          "data": [
+            {
+              "weight": "395400000",
+              "class": "Normal",
+              "paysFee": "Yes"
+            }
+          ]
+        }
+      ],
+      "success": true,
+      "paysFee": true
+    }
+  ],
+  "onFinalize": {
+    "events": []
+  },
+  "finalized": true
+}

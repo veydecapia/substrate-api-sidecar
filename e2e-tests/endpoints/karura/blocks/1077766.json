@@ -1,0 +1,764 @@
+{
+  "number": "1077766",
+  "hash": "0xbd0639482f46e5f589b2c5ac6b95d730d7b0eec77f03145eb0c449ddc79df5e7",
+  "parentHash": "0x102e6e024fff942f2d9a9a376ecebcbea10192ad9d90fb57e2f2e3c367bef2c5",
+  "stateRoot": "0x52156ab11814b1efac7af6a4ac84ef4b127f00098e315b85b70706f9746f238b",
+  "extrinsicsRoot": "0xc91c3071bba5d53c09b8ea6c8c1458d346733b7e9a9fefcba8fd65d80865bfa6",
+  "authorId": "qkFZUE2Dod2Y9LX8ZQzkvF5T2wE5hpBuPe9hT1gpP3drH1v",
+  "logs": [
+    {
+      "type": "PreRuntime",
+      "index": "6",
+      "value": [
+        "0x61757261",
+        "0x8053240800000000"
+      ]
+    },
+    {
+      "type": "Seal",
+      "index": "5",
+      "value": [
+        "0x61757261",
+        "0xc61e903a29181baf036a2fce06f354e5381eca2a66a42fbc6a7b94f36bcdbd1ccb1a5dc15bcaf3a739f46d0751df7c79aa7057f5e2cdfada8b4e3eeb160c0f8c"
+      ]
+    }
+  ],
+  "onInitialize": {
+    "events": [
+      {
+        "method": {
+          "pallet": "tokens",
+          "method": "Endowed"
+        },
+        "data": [
+          {
+            "token": "KUSD"
+          },
+          "qmmNufxeWaAUp4SVa1Vi1owrzP1xhR6XKdorEcck17RF498",
+          "64557878099"
+        ]
+      },
+      {
+        "method": {
+          "pallet": "currencies",
+          "method": "Deposited"
+        },
+        "data": [
+          {
+            "token": "KUSD"
+          },
+          "qmmNufxeWaAUp4SVa1Vi1owrzP1xhR6XKdorEcck17RF498",
+          "64557878099"
+        ]
+      },
+      {
+        "method": {
+          "pallet": "currencies",
+          "method": "Deposited"
+        },
+        "data": [
+          {
+            "token": "KUSD"
+          },
+          "qmmNufxeWaAUp4SVa1Vi1owrzP1xhR6XKdorEcck17RF498",
+          "28018912963"
+        ]
+      }
+    ]
+  },
+  "extrinsics": [
+    {
+      "method": {
+        "pallet": "timestamp",
+        "method": "set"
+      },
+      "signature": null,
+      "nonce": null,
+      "args": {
+        "now": "1639180800727"
+      },
+      "tip": null,
+      "hash": "0x131d8b42ccdd9b1389752b0f16ac2e220a61842509d3c8e0cab9578c584f5222",
+      "info": {},
+      "era": {
+        "immortalEra": "0x00"
+      },
+      "events": [
+        {
+          "method": {
+            "pallet": "system",
+            "method": "ExtrinsicSuccess"
+          },
+          "data": [
+            {
+              "weight": "160391000",
+              "class": "Mandatory",
+              "paysFee": "Yes"
+            }
+          ]
+        }
+      ],
+      "success": true,
+      "paysFee": false
+    },
+    {
+      "method": {
+        "pallet": "parachainSystem",
+        "method": "setValidationData"
+      },
+      "signature": null,
+      "nonce": null,
+      "args": {
+        "data": {
+          "validationData": {
+            "parentHead": "0xfc82287b44edd1f73da918633c956ed21d7076bd85321959f80bdb969d3b4b6416c8410045fb29c1a4243f4e37a77c1e700371691d7e26aef6c68d8dddd5db467f7fe028ba3a4a1993012496878a188df19721b6cf70cf25d62df9a65e3cb627708324fe080661757261207f53240800000000056175726101014a0f9a0c80f67e87d6957db7d5ebea6ea22b91adde7b49de1046d3f4e4417a245545a5121947414d6ffdf81b567ec80c751e89dfbdd8102861bfcf9e5e00ad8e",
+            "relayParentNumber": "10466131",
+            "relayParentStorageRoot": "0x54bc7b186a3818063af877520d9fc9c1df95600c924355b342792a1a17dd4750",
+            "maxPovSize": "5242880"
+          },
+          "relayChainState": {
+            "trieNodes": [
+              "0x5f04b49d95320d9021994c850f25b8e38509030000a000005000000a00000000c8000000c800000a0000000a00000040380000580200000000500000c8000000e87648170000000a00000000000000005039278c0400000000000000000000005039278c0400000000000000000000e8030000009001000a00000000000000009001008070000000000000000000000a0000000a0000000a00000001000000010500000001c8000000060000005802000002000000580200000200000059000000000000001e0000002800000000c817a804000000",
+              "0x80011080915c69f811b9420b09bb21f3a41f7aa2f9d68df42072f41b775c6596ca8a9e5d807f1cc767c252d20e53beb455c0e58dc5a5e0adac35539a12bf0a34c1c03d1cae",
+              "0x5f0159e4ea9f4ac743d0070000d10700005501e80300000090010000900100000000000000000001adfd05e282eb5ca89773ac48991bc5a4492f955555644f9a308b1caf83070852005039278c0400000000000000000000005039278c0400000000000000000000",
+              "0x80006080a298b029e7e11be1647585ec49d39531a450a4cb06fb482b499d2c2aea7c42594c5e7b9012096b41c4eb3aaf947f6ea429080000",
+              "0x5f0f1deb2e6f4cbe90d1070000d00700005501080000000090010000040000000000000000000001c4217ce5d89473509132d4c33b4359be1050eba9e65bc533887d33d7bf62424d005039278c0400000000000000000000005039278c0400000000000000000000",
+              "0x9e7fefc408aac59dbfe80a72ac8e3ce5700880990a59da182efb0613aa19479cf97d3b5838317d3c299c1a0830822b66c7366d805d71f6deb3c539869888402e338fce0a43ea28fb42d5d4bd84b7276474a60bd9807b1300867ba54fe57293334593c042afa1b8b5c0dad968ba6fc74d80889bdc348005bfafda9d7fb48a29f9cb0c26d8aa0c9b3fd67cb7f16f10736a0dc7460db7a3",
+              "0x8008148002b670b75023b8e75fe34074aa2bf0496e53bd9a69da2656b32b20ac2950b8388075625aa6a6ebda4b32f929197c153cb87f7be8ae68181316505324535df8934e8021790fe1492ec1760c013d017773c04a08126067da915f43d0165edfc77b16ef",
+              "0x9f0d3719f5b0b12c7105c073c50744594850004c570e6de0c642f36091d10700001404d00700004c5703f5a4efb16ffa83d00700001404d1070000",
+              "0x9e710b30bd2eab0352ddcc26417aa1945fc1806ca6fc1e6da270065e1680461dee60086297f309f3baed5dc0ed794dc6b59ef880306f363787c726cd3fc3bd06d60f53ee80920aa343e15835df0b2ff62ecabc7680389878629c75a2ac63c20885c55540c7861b3793cec66f38f05849fe4a8477a7803ef7c328d364fdf9996d258e76180ee572a9978f93fa16eba7085b7a27363a63505f0e7b9012096b41c4eb3aaf947f6ea4290800004c5f03c716fb8fff3de61a883bb76adb34a20400806530008cf160d96399aa016d1f942dd408fc6afaeabd6be07bdc60e05759d37680bfe30dcffaef72cd946a787103d3c45afaa51d940912bb3e7317b8aadecb761c80d8f4c6e3200024be6ed2d90a301531d133be6cf1ed64b8889a4871fadbd46c81",
+              "0x9f06604cff828a6e3f579ca6c59ace013d00248053ea30678923689f1dc7f186ba4d61cdbbfae42233fe3be951fc20754b4a81b18080f24926c0a00558b39414a13c9e566ee45db5c0726f9d4825826f5fc1cb88e1",
+              "0x9d0da05ca59913bc38a8630590f2627c17c880bbeeae5fddf70bd47646fe2479e75ab3b806f9b99e69db42a2c07590edeed89080a1fcb6a0624d9934dc75682e79af929866aa1cdd23c1eeff5c8df5d58854446c4c5f0a351b6a99a5b21324516e668bb86a570400505f0e7b9012096b41c4eb3aaf947f6ea429080000808f7fc86180212cb0eb9ec4981bf772229068e65d0219511dba541f485b1c0571805556fc04cf79757880a18defe9dc71fa55e950a04b6cd2f4782eb9daddba7789805c2fb1de3f618a328926bbbc32bc181d8f614aedef1ad92ecc207a6fb538f9c6",
+              "0x80ffff803e23d1260a7a2b91efe5a528cd6eecaf5608bb01f3d8458a8a906cb56b7c3a12809182fb77f0989e93cd04da9e1e676bef63095c5a20b9691783f943ea66fc31a4807933115cf4e09366d69756bafe2ea283851a08162864b443678bf2cf4a2b15cd80b6488f0fd8588b8bc1be721b0c99239493c98af872a058df7860f675e4a4c4be808a6594332b14e1b3ec96e6a9baf059d653c1efc43f96010797c7558403caa4a4807c2fabcda1f76ac6fb3ba201e4ae4915b00c850a930a7e16c69ba81bd8162c9b80a07182c28e2e37542140c710052886c21981ef1aefa1320f451294a98d984b7f80a1783ba0b20668b8a318e8a270ec7daf668413b3f4a72ff1f5a567e7b734fd4080286659e56de8b3cf50ca229ad329bbfca5613b262e8f8680bdf8aefe84c26dc58004f7cead05c2c468d51ddbd085419c0e27fde9f724ddb2190f9dded6a1665e21801492e0e88dbef1aa54134595d762d25b7e778d8eb0bc456cac275e3b014050bb807fc9f38ba38cf5ecb4eaf287f09bd7f6667c5b8f86bf8332a0e7f6cc5241c7f4801232b773cf89a109d686581132d3a9a2100e45afc948941b243e6750e6f85626809b3cdadd51153c7f81ba8e3ab20b7442c3a8be330edfec53d4ecb7f2afc72aa8809b90c12a607d94ae5f283607c4835e4bc52cf401c7a9d92eba1e21d5c0d3813580761fb550dd7955686745d2e84de91d109f3b1bb36f586768efa49821e542260b",
+              "0x801117806083fccc5ad9489e8fffd469466a4206a743d8dbbc8fb301059daa1d198c86288051237dda04dc826802848b30b544a877651d102f9a0642ebd24247793cbbce07804068e5926daa47a867907438c99613c504f1c1df00a865e6de9c133353877bef80e7cf20aaf384ff1e9f2c5e38ab5f05985e0d1d24ba03aff99917cde707b9f526807757bd214095c732c9d6c70660154f11fc667552f9c01fd6d7df5e7da0c470f480d3be81becbd823a9f02d13f0538293c69e7964f97cf9dfbddb2756c0cfeb8eb0",
+              "0x9ef78c98723ddc9073523ef3beefda0c10048070c27cba0adafbef790027c68291f1002036ea399b4738d04472ea46bb3af55580d2e8364a788888df0c4a0dd4b2c77ab512d81ae6b09b88433fc39deefb4897bd",
+              "0x800840804469e90e72411b44c86c6ec1fb45b05fca6eda8c2eeaa5397c4789440a7037e5804ac1cca5a52b57d53a25f851c1f60d2906f9b2347d71dde64fe0f001371b5394",
+              "0x80400880d1e3c1892dd09bcc46dc11a42ea62bcd0f9f677e9a10c17f5edc9956529830bf80500c3e1fadcbf6a663b0c8c37a91eb3b24271e37efb19904106badc43a7010b8",
+              "0x56f5a4efb16ffa83d007000080386bef78888bbf6e62e274a524e63ddacd7b49acb72efa066f02340df1377017",
+              "0x9e207f03cfdce586301014700e2c25931040505f0e7b9012096b41c4eb3aaf947f6ea4290800004c5f0ec2d17a76153ff51817f12d9cfc3c7f0400",
+              "0x80046c801b35ecc655b4e03369b30c3cc5ab521b712edfcf206f4ea151eb11a35893a3a180e554ad4fe2d42aeb5b681e72a029502235342f4f393ec18059b6450498d9d260808f83f0d8e6399e9f9d10c3c89b614e318848dfb7ecead89b137ab1fe2fa968f980a37b82fb6149306eb7d9fe79c1baa530a4e20306bd029f92ec27d8c879d2bf0b8076d848bfa53eddbf579538fdfc88722ae62c7730dd2e0082207e5163658d9d98",
+              "0x9e7bbb460270642b5bcaf032ea04d56a50003c570e6de0c642f36091d107000004003c5703f5a4efb16ffa83d00700000400",
+              "0x9eb6f36e027abb2091cfb5110ab5087ff96e685f06155b3cd9a8c9e5e9a23fd5dc13a5ed2000a7481000000000685f08316cbf8fa0da822a20ac1c55bf1be320ae45000000000000505f0e7b9012096b41c4eb3aaf947f6ea4290800008035959dfdd2e4c1a84f84c28862effcc2db67e527111108e9d007835ec7c0ae4f809d3fd79275a68cdcae96054d764f718cd8cdcfcaffba58588647a7356d9a4978809d06e2f8d3e78df094ffb25c26ec2cd80e9d72d1b346ef0c973c58fc92f58d14800d49fef039517cc312c00412803ca1df50ac6d90c50541f649a9c85b83c0fdd88078a02f3d2efb228301a0304c5afbdc3f4808835990a9fef5618915718a30910480b8401af40f534630f9226e0099dbc029a303713843e33f45338e6567ec68b0b4805f0a6728d7ce8bac9b80e1b12514f852e119db5f9ee2c21e64be499730b3e1fb685f090e2fbf2d792cb324bffa9427fe1f0e20bfaf9f0015b29f00",
+              "0x9ede3d8a54d27e44a9d5ce189618f22d1008505f0e7b9012096b41c4eb3aaf947f6ea42908010080e5d50f99ad57a1089a48b347f79da6a7d70d23915b14cce52a57e737689373c4",
+              "0x9f012b746dcf32e843354583c9702cc02050004c570e6de0c642f36091d10700001404d00700004c5703f5a4efb16ffa83d00700001404d1070000",
+              "0x80650080f846b7e8507408456b0f43d9891d59fe8e50f6409e2fca26b069315bd56c91b78038f8c24fc3d6505d10e4f9f3e9d74b7b0fa30770664714951a83da8d18584440801a2ff24096295cfccf1adda80b8dfffe380b9f3b54d7a3cdb67864a4655e6296801d8c6bd56b9fbc94a728b0a2426bcb15979b1dff2dd66515d152a91124ea933f",
+              "0x800c208058903f39bafe9ad45bbfcb3f4de7a859b73b4da89f518d8231f7286a0c3ad8bd806790f1adc0f722d334b920d6b4a0d357462a3a1cd70eb6b23321179dde7aa58e80729b5833c3c6904692bfbbf412c0fc564ff2b591cf99de1e515cb62248188193"
+            ]
+          },
+          "downwardMessages": [],
+          "horizontalMessages": {
+            "2001": []
+          }
+        }
+      },
+      "tip": null,
+      "hash": "0xa6c6bdcce0366b97fc748ef88e01c0b774958b430b04d0ee7663d3906c4692d5",
+      "info": {},
+      "era": {
+        "immortalEra": "0x00"
+      },
+      "events": [
+        {
+          "method": {
+            "pallet": "system",
+            "method": "ExtrinsicSuccess"
+          },
+          "data": [
+            {
+              "weight": "0",
+              "class": "Mandatory",
+              "paysFee": "Yes"
+            }
+          ]
+        }
+      ],
+      "success": true,
+      "paysFee": false
+    },
+    {
+      "method": {
+        "pallet": "dex",
+        "method": "swapWithExactTarget"
+      },
+      "signature": {
+        "signature": "0x12cd896a0f9d34ab6c1dec22f7c72b9d93e356357728f3acea5e4c45ad7add28bcbe30b92b4bdd0673a1381012120f1ef19ee77b11081694d8b0eff76cb18c83",
+        "signer": {
+          "id": "sNLXuhfbpq6aVojSY2mRrRYtrUExMhcqgkC523rsj738cR1"
+        }
+      },
+      "nonce": "31639",
+      "args": {
+        "path": [
+          {
+            "token": "KAR"
+          },
+          {
+            "token": "KSM"
+          }
+        ],
+        "target_amount": "2700000000000",
+        "max_supply_amount": "208830725864270"
+      },
+      "tip": "12220584962",
+      "hash": "0x58d624851421ee56cd8183c114715a66d22f57af7a76e72acd65d8a96c7fa033",
+      "info": {
+        "weight": "657805000",
+        "class": "Normal",
+        "partialFee": "2341698806"
+      },
+      "era": {
+        "mortalEra": [
+          "32",
+          "2"
+        ]
+      },
+      "events": [
+        {
+          "method": {
+            "pallet": "balances",
+            "method": "Withdraw"
+          },
+          "data": [
+            "sNLXuhfbpq6aVojSY2mRrRYtrUExMhcqgkC523rsj738cR1",
+            "14562283768"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "balances",
+            "method": "Transfer"
+          },
+          "data": [
+            "sNLXuhfbpq6aVojSY2mRrRYtrUExMhcqgkC523rsj738cR1",
+            "qmmNufxeWaAUqqs5k5ZwsenBmhm75jDRbsPrU5GBYgnrf5c",
+            "208200948776786"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "currencies",
+            "method": "Transferred"
+          },
+          "data": [
+            {
+              "token": "KAR"
+            },
+            "sNLXuhfbpq6aVojSY2mRrRYtrUExMhcqgkC523rsj738cR1",
+            "qmmNufxeWaAUqqs5k5ZwsenBmhm75jDRbsPrU5GBYgnrf5c",
+            "208200948776786"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "currencies",
+            "method": "Transferred"
+          },
+          "data": [
+            {
+              "token": "KSM"
+            },
+            "qmmNufxeWaAUqqs5k5ZwsenBmhm75jDRbsPrU5GBYgnrf5c",
+            "sNLXuhfbpq6aVojSY2mRrRYtrUExMhcqgkC523rsj738cR1",
+            "2700000000000"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "dex",
+            "method": "Swap"
+          },
+          "data": [
+            "sNLXuhfbpq6aVojSY2mRrRYtrUExMhcqgkC523rsj738cR1",
+            [
+              {
+                "token": "KAR"
+              },
+              {
+                "token": "KSM"
+              }
+            ],
+            [
+              "208200948776786",
+              "2700000000000"
+            ]
+          ]
+        },
+        {
+          "method": {
+            "pallet": "balances",
+            "method": "Deposit"
+          },
+          "data": [
+            "qmmNufxeWaAVLMER2va1v4w2HbuU683c5gGtuxQG4fKTZSb",
+            "14562283768"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "treasury",
+            "method": "Deposit"
+          },
+          "data": [
+            "14562283768"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "system",
+            "method": "ExtrinsicSuccess"
+          },
+          "data": [
+            {
+              "weight": "657805000",
+              "class": "Normal",
+              "paysFee": "Yes"
+            }
+          ]
+        }
+      ],
+      "success": true,
+      "paysFee": true
+    },
+    {
+      "method": {
+        "pallet": "dex",
+        "method": "swapWithExactTarget"
+      },
+      "signature": {
+        "signature": "0xf47f3838d9e9bae968b447db5ec0b02d1937cebce8e4177b252cb655d32f45331eb76213b6bc4c78590210812574d4458452682b3fc12772a00538b8a788cb8e",
+        "signer": {
+          "id": "r9uUeMykzE7wfbWv7f72p4KRyY8vAukxzGufFo7do91YeRj"
+        }
+      },
+      "nonce": "10247",
+      "args": {
+        "path": [
+          {
+            "token": "KAR"
+          },
+          {
+            "token": "KSM"
+          }
+        ],
+        "target_amount": "899999999999",
+        "max_supply_amount": "69716417678929"
+      },
+      "tip": "8152462345",
+      "hash": "0x2122cd4257812dda7b3a97dc10730e561e466a2b78cc08f570eb6f6fcfa9a893",
+      "info": {
+        "weight": "657805000",
+        "class": "Normal",
+        "partialFee": "2311698806"
+      },
+      "era": {
+        "mortalEra": [
+          "32",
+          "2"
+        ]
+      },
+      "events": [
+        {
+          "method": {
+            "pallet": "balances",
+            "method": "Withdraw"
+          },
+          "data": [
+            "r9uUeMykzE7wfbWv7f72p4KRyY8vAukxzGufFo7do91YeRj",
+            "10464161151"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "balances",
+            "method": "Transfer"
+          },
+          "data": [
+            "r9uUeMykzE7wfbWv7f72p4KRyY8vAukxzGufFo7do91YeRj",
+            "qmmNufxeWaAUqqs5k5ZwsenBmhm75jDRbsPrU5GBYgnrf5c",
+            "69419288203047"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "currencies",
+            "method": "Transferred"
+          },
+          "data": [
+            {
+              "token": "KAR"
+            },
+            "r9uUeMykzE7wfbWv7f72p4KRyY8vAukxzGufFo7do91YeRj",
+            "qmmNufxeWaAUqqs5k5ZwsenBmhm75jDRbsPrU5GBYgnrf5c",
+            "69419288203047"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "currencies",
+            "method": "Transferred"
+          },
+          "data": [
+            {
+              "token": "KSM"
+            },
+            "qmmNufxeWaAUqqs5k5ZwsenBmhm75jDRbsPrU5GBYgnrf5c",
+            "r9uUeMykzE7wfbWv7f72p4KRyY8vAukxzGufFo7do91YeRj",
+            "899999999999"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "dex",
+            "method": "Swap"
+          },
+          "data": [
+            "r9uUeMykzE7wfbWv7f72p4KRyY8vAukxzGufFo7do91YeRj",
+            [
+              {
+                "token": "KAR"
+              },
+              {
+                "token": "KSM"
+              }
+            ],
+            [
+              "69419288203047",
+              "899999999999"
+            ]
+          ]
+        },
+        {
+          "method": {
+            "pallet": "balances",
+            "method": "Deposit"
+          },
+          "data": [
+            "qmmNufxeWaAVLMER2va1v4w2HbuU683c5gGtuxQG4fKTZSb",
+            "10464161151"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "treasury",
+            "method": "Deposit"
+          },
+          "data": [
+            "10464161151"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "system",
+            "method": "ExtrinsicSuccess"
+          },
+          "data": [
+            {
+              "weight": "657805000",
+              "class": "Normal",
+              "paysFee": "Yes"
+            }
+          ]
+        }
+      ],
+      "success": true,
+      "paysFee": true
+    },
+    {
+      "method": {
+        "pallet": "xTokens",
+        "method": "transfer"
+      },
+      "signature": {
+        "signature": "0x344265975615ad138659dd26baf24301cb706b949ae43e06dd1893a0fec30b777734737e6b9bc19e1ada920c77e5cc26727e6716ad3ce0d97b28f7c7f4ea0a8b",
+        "signer": {
+          "id": "sNLXuhfbpq6aVojSY2mRrRYtrUExMhcqgkC523rsj738cR1"
+        }
+      },
+      "nonce": "31640",
+      "args": {
+        "currency_id": {
+          "token": "KSM"
+        },
+        "amount": "19000000000000",
+        "dest": {
+          "v1": {
+            "parents": "1",
+            "interior": {
+              "x1": {
+                "accountId32": {
+                  "network": {
+                    "any": null
+                  },
+                  "id": "0xb409946bbb59780d2775932e91b73555c482889615b69050a256541367032e1f"
+                }
+              }
+            }
+          }
+        },
+        "dest_weight": "5000000000"
+      },
+      "tip": "0",
+      "hash": "0x1ad447b47ee03bcc0fcd8154f04dc44f55193406de58670de81da33eaad1d1a3",
+      "info": {
+        "weight": "500000000",
+        "class": "Normal",
+        "partialFee": "2731291269"
+      },
+      "era": {
+        "mortalEra": [
+          "32",
+          "2"
+        ]
+      },
+      "events": [
+        {
+          "method": {
+            "pallet": "balances",
+            "method": "Withdraw"
+          },
+          "data": [
+            "sNLXuhfbpq6aVojSY2mRrRYtrUExMhcqgkC523rsj738cR1",
+            "2731291269"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "currencies",
+            "method": "Withdrawn"
+          },
+          "data": [
+            {
+              "token": "KSM"
+            },
+            "sNLXuhfbpq6aVojSY2mRrRYtrUExMhcqgkC523rsj738cR1",
+            "19000000000000"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "xTokens",
+            "method": "Transferred"
+          },
+          "data": [
+            "sNLXuhfbpq6aVojSY2mRrRYtrUExMhcqgkC523rsj738cR1",
+            {
+              "token": "KSM"
+            },
+            "19000000000000",
+            {
+              "parents": "1",
+              "interior": {
+                "x1": {
+                  "accountId32": {
+                    "network": {
+                      "any": null
+                    },
+                    "id": "0xb409946bbb59780d2775932e91b73555c482889615b69050a256541367032e1f"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "method": {
+            "pallet": "balances",
+            "method": "Deposit"
+          },
+          "data": [
+            "qmmNufxeWaAVLMER2va1v4w2HbuU683c5gGtuxQG4fKTZSb",
+            "2731291269"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "treasury",
+            "method": "Deposit"
+          },
+          "data": [
+            "2731291269"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "system",
+            "method": "ExtrinsicSuccess"
+          },
+          "data": [
+            {
+              "weight": "500000000",
+              "class": "Normal",
+              "paysFee": "Yes"
+            }
+          ]
+        }
+      ],
+      "success": true,
+      "paysFee": true
+    },
+    {
+      "method": {
+        "pallet": "dex",
+        "method": "swapWithExactSupply"
+      },
+      "signature": {
+        "signature": "0x641844e90290fa788bda5b99307f6861e913264fdadd8279492488d625315363a37387f3bb3f7344a095576ef066d5173de2a6ebf084d896b97de5b277b5bd84",
+        "signer": {
+          "id": "tyCvJrHSNY5yAiVFFMHqynf8BvcAm1SiCDDyRyUUNMjpitp"
+        }
+      },
+      "nonce": "497",
+      "args": {
+        "path": [
+          {
+            "token": "KSM"
+          },
+          {
+            "token": "LKSM"
+          }
+        ],
+        "supply_amount": "7250000000000",
+        "min_target_amount": "69032456206045"
+      },
+      "tip": "0",
+      "hash": "0xda0c5acda6e6e8bafc40bfe2c069005cb4b89b5aac44d7483d82e9dbb588af0c",
+      "info": {
+        "weight": "657534000",
+        "class": "Normal",
+        "partialFee": "2271698107"
+      },
+      "era": {
+        "mortalEra": [
+          "32",
+          "2"
+        ]
+      },
+      "events": [
+        {
+          "method": {
+            "pallet": "balances",
+            "method": "Withdraw"
+          },
+          "data": [
+            "tyCvJrHSNY5yAiVFFMHqynf8BvcAm1SiCDDyRyUUNMjpitp",
+            "2271698107"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "currencies",
+            "method": "Transferred"
+          },
+          "data": [
+            {
+              "token": "KSM"
+            },
+            "tyCvJrHSNY5yAiVFFMHqynf8BvcAm1SiCDDyRyUUNMjpitp",
+            "qmmNufxeWaAUqqs5k5ZwsenBmhm75jDRbsPrU5GBYgnrf5c",
+            "7250000000000"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "tokens",
+            "method": "Endowed"
+          },
+          "data": [
+            {
+              "token": "LKSM"
+            },
+            "tyCvJrHSNY5yAiVFFMHqynf8BvcAm1SiCDDyRyUUNMjpitp",
+            "69379352970900"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "currencies",
+            "method": "Transferred"
+          },
+          "data": [
+            {
+              "token": "LKSM"
+            },
+            "qmmNufxeWaAUqqs5k5ZwsenBmhm75jDRbsPrU5GBYgnrf5c",
+            "tyCvJrHSNY5yAiVFFMHqynf8BvcAm1SiCDDyRyUUNMjpitp",
+            "69379352970900"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "dex",
+            "method": "Swap"
+          },
+          "data": [
+            "tyCvJrHSNY5yAiVFFMHqynf8BvcAm1SiCDDyRyUUNMjpitp",
+            [
+              {
+                "token": "KSM"
+              },
+              {
+                "token": "LKSM"
+              }
+            ],
+            [
+              "7250000000000",
+              "69379352970900"
+            ]
+          ]
+        },
+        {
+          "method": {
+            "pallet": "balances",
+            "method": "Deposit"
+          },
+          "data": [
+            "qmmNufxeWaAVLMER2va1v4w2HbuU683c5gGtuxQG4fKTZSb",
+            "2271698107"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "treasury",
+            "method": "Deposit"
+          },
+          "data": [
+            "2271698107"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "system",
+            "method": "ExtrinsicSuccess"
+          },
+          "data": [
+            {
+              "weight": "657534000",
+              "class": "Normal",
+              "paysFee": "Yes"
+            }
+          ]
+        }
+      ],
+      "success": true,
+      "paysFee": true
+    }
+  ],
+  "onFinalize": {
+    "events": [
+      {
+        "method": {
+          "pallet": "currencies",
+          "method": "Withdrawn"
+        },
+        "data": [
+          {
+            "token": "KUSD"
+          },
+          "qmmNufxeWaAUp4SVa1Vi1owrzP1xhR6XKdorEcck17RF498",
+          "92576791062"
+        ]
+      }
+    ]
+  },
+  "finalized": true
+}
