@@ -1,0 +1,33 @@
+{
+  "at": {
+    "height": "100000",
+    "hash": "0x240e734ba26183bd1f9e7036a3983ab6624b3586d8c646ddc5bb5bb71fc5a006"
+  },
+  "authoringVersion": "1",
+  "transactionVersion": "1",
+  "implVersion": "0",
+  "specName": "karura",
+  "specVersion": "1002",
+  "chainType": {
+    "live": null
+  },
+  "properties": {
+    "ss58Format": "8",
+    "tokenDecimals": [
+      "12",
+      "12",
+      "12",
+      "12",
+      "12",
+      "12"
+    ],
+    "tokenSymbol": [
+      "KAR",
+      "KUSD",
+      "KSM",
+      "LKSM",
+      "BNC",
+      "VSKSM"
+    ]
+  }
+}

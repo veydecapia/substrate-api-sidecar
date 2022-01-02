@@ -1,0 +1,19 @@
+{
+  "at": {
+    "hash": "0x4fc2a0cd4faeee7a76b8b3cdb2649f910fcf00eea8de4529ac478b95c457e426",
+    "height": "774417"
+  },
+  "nonce": "0",
+  "tokenSymbol": "KAR",
+  "free": "27433055920000000000",
+  "reserved": "0",
+  "miscFrozen": "17000000000000000000",
+  "feeFrozen": "17000000000000000000",
+  "locks": [
+    {
+      "id": "0x6f726d6c76657374",
+      "amount": "17000000000000000000",
+      "reasons": "All"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+name: daily e2e tests
+
+on:
+  push:
+    branches:
+    - master
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at 12am
+    # No assurance on schedule  - https://github.community/t/no-assurance-on-scheduled-jobs/133753
+
+jobs:
+  e2e-test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Install wasm-pack
+      uses: jetli/wasm-pack-action@v0.3.0
+      with:
+        version: v0.10.0
+    - uses: actions/checkout@v2
+    - name: Test
+      run: |
+        yarn install
+        echo "Daily Test is now running..."
+        yarn test:init-e2e-tests  #Should test on all available chain networks

@@ -1,0 +1,311 @@
+{
+  "number": "1218749",
+  "hash": "0x4673ed353f70817eb3aff0f620f5cd3c2a5548d70ef1ff52dc0591133e1be8af",
+  "parentHash": "0x54ee59dc02205d37a6c907d40b6db93c44101594bbf5af98466ec3f9226d1c9a",
+  "stateRoot": "0x26ca17669d798561673b674725a9ebc4c7d7a4e60122721e9713745620f3b6cc",
+  "extrinsicsRoot": "0xfca3ee85f42a8ac917ec783e1bc38c288ddc70a11ed3854ad793eef38a5732c1",
+  "authorId": "qyf2KVDbBmF3MjRgmyFpQrNUnoxhp9AWCJrywysQcwXaiyb",
+  "logs": [
+    {
+      "type": "PreRuntime",
+      "index": "6",
+      "value": [
+        "0x61757261",
+        "0xde8d260800000000"
+      ]
+    },
+    {
+      "type": "Seal",
+      "index": "5",
+      "value": [
+        "0x61757261",
+        "0x328908b303b703e4661898bcfd96cce835f99a993e00b5440f56bc9f549cb01af7b13c41a5f88515047025f6f81032fcd5871ddfb748a4f78ec24fca01ef7882"
+      ]
+    }
+  ],
+  "onInitialize": {
+    "events": [
+      {
+        "method": {
+          "pallet": "tokens",
+          "method": "Endowed"
+        },
+        "data": [
+          {
+            "token": "KUSD"
+          },
+          "qmmNufxeWaAUp4SVa1Vi1owrzP1xhR6XKdorEcck17RF498",
+          "58022107823"
+        ]
+      },
+      {
+        "method": {
+          "pallet": "currencies",
+          "method": "Deposited"
+        },
+        "data": [
+          {
+            "token": "KUSD"
+          },
+          "qmmNufxeWaAUp4SVa1Vi1owrzP1xhR6XKdorEcck17RF498",
+          "58022107823"
+        ]
+      },
+      {
+        "method": {
+          "pallet": "currencies",
+          "method": "Deposited"
+        },
+        "data": [
+          {
+            "token": "KUSD"
+          },
+          "qmmNufxeWaAUp4SVa1Vi1owrzP1xhR6XKdorEcck17RF498",
+          "30614017970"
+        ]
+      },
+      {
+        "method": {
+          "pallet": "currencies",
+          "method": "Deposited"
+        },
+        "data": [
+          {
+            "token": "KUSD"
+          },
+          "qmmNufxeWaAUp4SVa1Vi1owrzP1xhR6XKdorEcck17RF498",
+          "11151600860"
+        ]
+      }
+    ]
+  },
+  "extrinsics": [
+    {
+      "method": {
+        "pallet": "timestamp",
+        "method": "set"
+      },
+      "signature": null,
+      "nonce": null,
+      "args": {
+        "now": "1640932974155"
+      },
+      "tip": null,
+      "hash": "0xb7734f522cbcd8cfc5ccd3c97d9c38e22c70cc6af74700f1c0f69553d145f68e",
+      "info": {},
+      "era": {
+        "immortalEra": "0x00"
+      },
+      "events": [
+        {
+          "method": {
+            "pallet": "system",
+            "method": "ExtrinsicSuccess"
+          },
+          "data": [
+            {
+              "weight": "160391000",
+              "class": "Mandatory",
+              "paysFee": "Yes"
+            }
+          ]
+        }
+      ],
+      "success": true,
+      "paysFee": false
+    },
+    {
+      "method": {
+        "pallet": "parachainSystem",
+        "method": "setValidationData"
+      },
+      "signature": null,
+      "nonce": null,
+      "args": {
+        "data": {
+          "validationData": {
+            "parentHead": "0xbc86dd5e5e5bf5963253e0453d87ca9242c1ed9a55ef5379158489babdc1de48f2624a004107b0b3faedc89ad93d49f2025427d99315dc8a890c186aaf8a4a98c04eead7e4284f6a5107b36c9b67f819e9a9bf606825f67c5f41d05b4db49c01b075341a08066175726120dd8d2608000000000561757261010126c02599b7c8860bbf7dfa98a4d12f8836dd8be7af0904e91685b8d2bc0afc756f99267e44eda9c605ffe2b0c49eec861eec9a821d2f3e0a1824969d4c71b384",
+            "relayParentNumber": "10755534",
+            "relayParentStorageRoot": "0x45378ce5a1f7a970b2f9cff39ea338e186b09ec4c7f5b239c7d078233807ca35",
+            "maxPovSize": "5242880"
+          },
+          "relayChainState": {
+            "trieNodes": [
+              "0x9f012b746dcf32e843354583c9702cc02050004c570e6de0c642f36091d10700001404d00700004c5703f5a4efb16ffa83d00700001404d1070000",
+              "0x80400880d1e3c1892dd09bcc46dc11a42ea62bcd0f9f677e9a10c17f5edc9956529830bf80500c3e1fadcbf6a663b0c8c37a91eb3b24271e37efb19904106badc43a7010b8",
+              "0x5f04b49d95320d9021994c850f25b8e38509030000a000005000000a00000000c8000000c800000a0000000a00000040380000580200000000500000c8000000e87648170000000a00000000000000005039278c0400000000000000000000005039278c0400000000000000000000e8030000009001000a00000000000000009001008070000000000000000000000a0000000a0000000a00000001000000010500000001c8000000060000005802000002000000580200000200000059000000000000001e0000002800000000c817a804000000",
+              "0x800110802732294c7921cbcd1bae443fdcecd9aa8f93e3f9609089e196d61dc6990810c58015e101b845892ee229edb925879a9766f71af69bb4763bcea1f8f9e3fb87d1c4",
+              "0x56f5a4efb16ffa83d0070000806231d485cd734b892341e2486b0acdca97be7dde7407ed0bb6d5b868723134ed",
+              "0x9eb6f36e027abb2091cfb5110ab5087ff96e685f06155b3cd9a8c9e5e9a23fd5dc13a5ed20bd1b4d1000000000685f08316cbf8fa0da822a20ac1c55bf1be3209547000000000000505f0e7b9012096b41c4eb3aaf947f6ea42908000080f86d8ff720ea98e047598a5363a09648aab7c44dbfef325eebffb8ddfc25858a809d3fd79275a68cdcae96054d764f718cd8cdcfcaffba58588647a7356d9a497880400c3a5eb40b0c066579107783a1d5d093844ea0df4c7a7840d0e037dc2008ff800d49fef039517cc312c00412803ca1df50ac6d90c50541f649a9c85b83c0fdd880be308f90367050ff18e6a1e5e660f547564675caaa16266e9a653fe93ce451be808cdf1d4d08333950957cf10c133f758782efd47a776f6676108a637374507c9880a465fff5e86396461b47f273bb286e674e9eb495b1f53d0d5d6f75c0e8bfd6d4685f090e2fbf2d792cb324bffa9427fe1f0e20e51aa4003a1da400",
+              "0x9e207f03cfdce586301014700e2c25931040505f0e7b9012096b41c4eb3aaf947f6ea4290800004c5f0ec2d17a76153ff51817f12d9cfc3c7f0400",
+              "0x80650080b96b7d85cd201e0039eb4c6cce13966e62da490d6335ed67d1787d3a5e497c5780c0972cde3bb9e1e106eac79d85a47ca1abef6dfeb6e244dae1447594a12219e7801a2ff24096295cfccf1adda80b8dfffe380b9f3b54d7a3cdb67864a4655e6296801d8c6bd56b9fbc94a728b0a2426bcb15979b1dff2dd66515d152a91124ea933f",
+              "0x80ffff803e23d1260a7a2b91efe5a528cd6eecaf5608bb01f3d8458a8a906cb56b7c3a1280089aea9ad552a727e017802a6b5b76051e6fe9b2525bbd9857a08d83095d1a6b8096456f6b4fb2afe27066db54af4a863ef1969cc141aca3bfdafc7ea275ab49f7807f7463ab572587b5cf4923b46dc62c5c1466360f97720b57d608f1a80e917dac80ddf7d3bcb6b1891063d846256b1cbb8b393b3fffd17bd02f8797aa2000b67f66805a2c0e08ff2cd870137bdea9afcf4b8ecc7b1d3762fb4872f4ee7c9758d9598080ce95e0b594bfeca92be485be630b7f069cbb9a13c3316a2ef633d8c692dc7c5a80017e145daa9e2a849e571d834d691860e703c27a54c3d94943c4566a46091329806275fb0e9a738e6efae50ffa6cfc043326c66bf40532872494a77735d9e22edc808dbb477cd2bd0afdc7312e5989f10d6e812749bac96f15af4193e27e425450e5805606136cd60e6768577acc0eb3d2884bd7be63cce760d39322875fb987049ab380fc18099e582f5f6261cd652cbb1359381a54a17e156570a03a89447fa2ea1fd780a830f39e56140e6439e7aca16c0549a79895a10e7100cd58421b86bef7932334803e63a80e924564270e81c4e3db800c47d6d4d002be4e268e1e4eb47090078df080aa7d45458d06d2ec36fd4e1da0d26ff3582bb7728649a2f536987555a8d48500804d46edd7b60d0b5aa562dd0bc22720605aff4a07c25fa4681264e710c3c0225a",
+              "0x80006080b1529c0f34e2034d92cc83ae52fe7da2fe9d0d6456e8815a7f41a8c4c83e41034c5e7b9012096b41c4eb3aaf947f6ea429080000",
+              "0x9ef78c98723ddc9073523ef3beefda0c1004807410a1678eb56d1bad08c7e2b60f60d80e3c2b68ca1f02eefb2da98bddbb54c980d2e8364a788888df0c4a0dd4b2c77ab512d81ae6b09b88433fc39deefb4897bd",
+              "0x80046c80dc5592bf8d98dd73a76123f66791860f7be474da548b2416e47f890546cd4d2a80b4e6ca81524f79ec0bca2cbfd3090ee7f17ed7f7c35e85003b5f1f0ff9bbdf25808f83f0d8e6399e9f9d10c3c89b614e318848dfb7ecead89b137ab1fe2fa968f980c491d67c00b66f6660021ffbe9910c0a347bf7b4e5281a15e62f09ec682162af80f3a295256cbd89fd222ad9c92e3a004b68d2cbf305953a4fe5759c78861ca725",
+              "0x9f06604cff828a6e3f579ca6c59ace013d0024805f1198bb6b94b123e879cf3218a026ce40267c557ee20ef1e53deb1ca258e042807552bedb90df7f53562dd52e9f3b552c1054800ae61df9f352c9873a5957205b",
+              "0x9f0d3719f5b0b12c7105c073c50744594850004c570e6de0c642f36091d10700001404d00700004c5703f5a4efb16ffa83d00700001404d1070000",
+              "0x800c2078767bbb460270642b5bcaf032ea04d56a4e6de0c642f36091d10700000400806b0700cce3c13b5702e037252e684741f7517d5f8ab9a71be0f00eb16ef59ee88019361ff98256a2708280b5d129df585ee8b99c6348942f22050545d4021a2bad",
+              "0x5f0f1deb2e6f4cbe90d1070000d00700005501080000000090010000040000000000000000000001376ac055580d2745e73dd521f90cd9edc5ffde84d610964b01a1fa30c8d0a493005039278c0400000000000000000000005039278c0400000000000000000000",
+              "0x9d0da05ca59913bc38a8630590f2627c17d980b5576bb784719fb298368b106cc2a4fac64b6482162ba0339988bbe69f24ba8780a1fcb6a0624d9934dc75682e79af929866aa1cdd23c1eeff5c8df5d58854446c6c5f0a351b6a99a5b21324516e668bb86a572404d0070000e8030000505f0e7b9012096b41c4eb3aaf947f6ea429080000802e04f9eacfb4507ce17ca31eddbc1b4def84a5fd5625f713672a7a696ab89dd280a12f3a1e590315b8c61ca6455710231d3abfae7fe3cbb1b7edd4d2549769a90f8007b3592a67262897b8fd5cb3cfb1d63c21c20d7e99fdbf0e0df72952ee38dbad805556fc04cf79757880a18defe9dc71fa55e950a04b6cd2f4782eb9daddba7789805c2fb1de3f618a328926bbbc32bc181d8f614aedef1ad92ecc207a6fb538f9c6",
+              "0x9e7fefc408aac59dbfe80a72ac8e3ce5700880554f8cfcf815fef746bc0eebb74d26674c890ba53a0603e755c7c56354a482f0805d71f6deb3c539869888402e338fce0a43ea28fb42d5d4bd84b7276474a60bd98054315309ced005b27049973a243a69764470d222f0602e784248e5984c4af1de80cf1879d9078068a90fa3d1604b230fdbde5d719a6bd37dd55c201f8147e5fa35",
+              "0x5f0159e4ea9f4ac743d0070000d10700005501e8030000009001000090010000000000000000000124e2e1715806657d2e765bd25cc96367394992dfcc949cc8b23d9f77810cb30c005039278c0400000000000000000000005039278c0400000000000000000000",
+              "0x801117806083fccc5ad9489e8fffd469466a4206a743d8dbbc8fb301059daa1d198c862880becd3bccf22bc989d6b37763504e65ce985f58e343ec4ddfb50ca0c5a88377328039e3f574279c9ed047a9f17a4c8030d77ba4e9f764d2a0c48ce7983cb6a8817380ff95436256d0cb4f51149b20561e51599fdd07ec69ef488150f04bb486572ed1801447a0a31998fa64e12ef8438cd2659e1644991e9643a4a434f07b0a1ebb0ba4801c843131777a065acbf7a270591582375de3f90e26c488f184288ef9d1a0e36c",
+              "0x9ede3d8a54d27e44a9d5ce189618f22d1008505f0e7b9012096b41c4eb3aaf947f6ea42908010080e5d50f99ad57a1089a48b347f79da6a7d70d23915b14cce52a57e737689373c4",
+              "0x8008408051aaba4fa5f0a4c2c293e80dcf98cecf18bb838cead652602eff29edbdc8c99480f3341d359ce9cfdf2715c66ccb7816c0e811dae8b24a7cb9e397f58700c86b4f",
+              "0x80081480331d5dfbc7c694d031901e4d0d9e655dd31bf0005a7e3b2eddc74d62ee6b794c807e03f05456279b2838cc7073a2debb6de5b77c1eacdd9e66924e1565d78f2c7a8021790fe1492ec1760c013d017773c04a08126067da915f43d0165edfc77b16ef",
+              "0x9e710b30bd2eab0352ddcc26417aa1945fc180b6bff3452520a0a55a494fba543069de18482725fd88579da008d7b065b83cd28069db03d52ce5ff5f8df1b64b544549ce8c2c3fedb1f08d52302028df36192c4c80919833f61ce457259d7ad9c83146f6cb1068ba306c9b9cde4ea08a829dd3b57180321036df43ff7cc849aad227960b247c2695edcfb343596cc21109b11f9ab5f7505f0e7b9012096b41c4eb3aaf947f6ea4290800004c5f03c716fb8fff3de61a883bb76adb34a20400801da8aeb24dd9cab6e1c9daa8c3649aaf6666242b071b4c3379bbc94971e2316880d9a4001682d3bfce7e3fb86d93a6c86e068bdf6ca5346c97ab4d3f8170b92dac8032ed9c39c0e006fdd4a24656d8232ae21d32227f3949683114e0677f9e86e9a0"
+            ]
+          },
+          "downwardMessages": [],
+          "horizontalMessages": {
+            "2001": []
+          }
+        }
+      },
+      "tip": null,
+      "hash": "0x4414119fc0d8bf6595b988080d262bb387a041de3a9a3063329cfa5d789eccf9",
+      "info": {},
+      "era": {
+        "immortalEra": "0x00"
+      },
+      "events": [
+        {
+          "method": {
+            "pallet": "system",
+            "method": "ExtrinsicSuccess"
+          },
+          "data": [
+            {
+              "weight": "0",
+              "class": "Mandatory",
+              "paysFee": "Yes"
+            }
+          ]
+        }
+      ],
+      "success": true,
+      "paysFee": false
+    },
+    {
+      "method": {
+        "pallet": "acalaOracle",
+        "method": "feedValues"
+      },
+      "signature": {
+        "signature": "0x4eab656f85dbd5dac3ade4f2b5f3bf1d17bce2c6821b72b5fc519d265ef2d13bf2abccaaa672fd1299ee0cf457123702e576b4ed25e6251c31798dca3dfaff81",
+        "signer": {
+          "id": "q7kCWmJ9M7MqtmP4KnDpsaoJgW7LRNbz26j3L7Vw9jFKxZo"
+        }
+      },
+      "nonce": "16446",
+      "args": {
+        "values": [
+          [
+            {
+              "token": "KSM"
+            },
+            "279680000000000000000"
+          ],
+          [
+            {
+              "token": "KAR"
+            },
+            "3842200000000000000"
+          ]
+        ]
+      },
+      "tip": "0",
+      "hash": "0xc26f37e7393936da75e477d4ad0ac9974b04513bfef5521c913a9cfac59ed49d",
+      "info": {
+        "weight": "599000000",
+        "class": "Normal",
+        "partialFee": "2470539234"
+      },
+      "era": {
+        "mortalEra": [
+          "32",
+          "26"
+        ]
+      },
+      "events": [
+        {
+          "method": {
+            "pallet": "balances",
+            "method": "Withdraw"
+          },
+          "data": [
+            "q7kCWmJ9M7MqtmP4KnDpsaoJgW7LRNbz26j3L7Vw9jFKxZo",
+            "2470539234"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "acalaOracle",
+            "method": "NewFeedData"
+          },
+          "data": [
+            "q7kCWmJ9M7MqtmP4KnDpsaoJgW7LRNbz26j3L7Vw9jFKxZo",
+            [
+              [
+                {
+                  "token": "KSM"
+                },
+                "279680000000000000000"
+              ],
+              [
+                {
+                  "token": "KAR"
+                },
+                "3842200000000000000"
+              ]
+            ]
+          ]
+        },
+        {
+          "method": {
+            "pallet": "balances",
+            "method": "Deposit"
+          },
+          "data": [
+            "q7kCWmJ9M7MqtmP4KnDpsaoJgW7LRNbz26j3L7Vw9jFKxZo",
+            "2470539234"
+          ]
+        },
+        {
+          "method": {
+            "pallet": "system",
+            "method": "ExtrinsicSuccess"
+          },
+          "data": [
+            {
+              "weight": "599000000",
+              "class": "Normal",
+              "paysFee": "Yes"
+            }
+          ]
+        }
+      ],
+      "success": true,
+      "paysFee": true
+    }
+  ],
+  "onFinalize": {
+    "events": [
+      {
+        "method": {
+          "pallet": "currencies",
+          "method": "Withdrawn"
+        },
+        "data": [
+          {
+            "token": "KUSD"
+          },
+          "qmmNufxeWaAUp4SVa1Vi1owrzP1xhR6XKdorEcck17RF498",
+          "99787726653"
+        ]
+      }
+    ]
+  },
+  "finalized": true
+}
